@@ -5,9 +5,21 @@ description: "Jekyll template, Medium styled, free for bloggers."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /mediumish-theme-jekyll
-google_analytics: 'UA-46278016-1'
+
+
+## Google Analytics es una herramienta gratuita de análisis web que te permite rastrear y analizar el tráfico de tu sitio web, incluyendo la cantidad de visitantes, la procedencia de los visitantes, las páginas más visitadas, etc.
+## Para utilizar Google Analytics, debes crear una cuenta en el sitio web de Google Analytics y obtener un código de seguimiento (como el que se muestra en la línea de código). Luego, debes agregar este código a tu sitio web para que Google Analytics pueda rastrear el tráfico.
+google_analytics: ''
+
+## Disqus es una plataforma de comentarios que te permite agregar comentarios a tu sitio web de manera fácil y segura.
+#Para utilizar Disqus, debes crear una cuenta en el sitio web de Disqus y obtener un código de configuración (como el que se muestra en la línea de código). Luego, debes agregar este código a tu sitio web para que Disqus pueda funcionar correctamente.
+## Disqus ofrece planes gratuitos y de pago. El plan gratuito te permite agregar comentarios a tu sitio web, pero con algunas limitaciones. Los planes de pago ofrecen más características y funcionalidades avanzadas.
+## Solo es gratuita por 30 dias, por lo que no es una buena opcion. seria mejor hacer los comentarios en sinatra
 disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+## Mailchimp es una plataforma de marketing por correo electrónico y automatización de marketing que permite a los usuarios crear y enviar campañas de correo electrónico personalizadas a sus suscriptores.
+## Se puede usar Mailchimpo Mailjet que son gratis
+mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 
@@ -23,7 +35,7 @@ authors:
     description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
   john:
     name: John
-    display_name: John    
+    display_name: John
     avatar: 'assets/images/avatar.png'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: wowthemesnet@gmail.com
@@ -38,7 +50,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -46,11 +58,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
