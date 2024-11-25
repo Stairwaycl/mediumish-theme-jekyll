@@ -1,6 +1,6 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
+name: "_Gymon Blog"
+title: "_Gymon Blog"
 description: "Jekyll template, Medium styled, free for bloggers."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
@@ -15,7 +15,7 @@ google_analytics: ''
 #Para utilizar Disqus, debes crear una cuenta en el sitio web de Disqus y obtener un código de configuración (como el que se muestra en la línea de código). Luego, debes agregar este código a tu sitio web para que Disqus pueda funcionar correctamente.
 ## Disqus ofrece planes gratuitos y de pago. El plan gratuito te permite agregar comentarios a tu sitio web, pero con algunas limitaciones. Los planes de pago ofrecen más características y funcionalidades avanzadas.
 ## Solo es gratuita por 30 dias, por lo que no es una buena opcion. seria mejor hacer los comentarios en sinatra
-disqus: 'demowebsite'
+disqus: ''
 
 ## Mailchimp es una plataforma de marketing por correo electrónico y automatización de marketing que permite a los usuarios crear y enviar campañas de correo electrónico personalizadas a sus suscriptores.
 ## Se puede usar Mailchimpo Mailjet que son gratis
@@ -26,21 +26,21 @@ permalink: /:title/
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    name: author1
+    display_name: author1
+    gravatar:
+    email: author1@gmail.com
+    web: https://www.example1.com
+    twitter: https://twitter.com/author1
+    description: "Author of gymonblog, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
   john:
-    name: John
-    display_name: John
+    name: author2
+    display_name: author2
     avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
+    gravatar:
+    email: author2@gmail.com
+    web: https://www.example2.com
+    twitter: https://twitter.com/author2
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
