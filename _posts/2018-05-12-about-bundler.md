@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "About Bundler"
-author: sal
+author: mirtha
 categories: [ Jekyll ]
 image: assets/images/2.jpg
 rating: 3

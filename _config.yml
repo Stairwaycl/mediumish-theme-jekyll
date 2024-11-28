@@ -25,22 +25,21 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: author1
-    display_name: author1
+  mirtha:
+    name: Mirtha
+    display_name: Mirtha
     gravatar:
-    email: author1@gmail.com
+    email: mirtha@gmail.com
     web: https://www.example1.com
-    twitter: https://twitter.com/author1
+    twitter: https://twitter.com/mirtha
     description: "Author of gymonblog, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: author2
-    display_name: author2
-    avatar: 'assets/images/avatar.png'
+  erwin:
+    name: Erwin
+    display_name: Erwin
     gravatar:
-    email: author2@gmail.com
+    email: erwin@gmail.com
     web: https://www.example2.com
-    twitter: https://twitter.com/author2
+    twitter: https://twitter.com/erwin
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
